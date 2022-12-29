@@ -184,12 +184,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
     /*position: relative;
     top: 50%;
     transform: translateY(-50%);*/
-}
-.cta-container {
-    margin-right: 5px;
 }
 
 .cta-container .cta-text {
@@ -200,7 +199,7 @@ header {
 
 .cta-container .cta-subtext {
     color: #e5e7eb;
-    margin-top: 7px;
+    margin: 7px 0 7px 0;
 }
 
 .bottom-section-container button {
